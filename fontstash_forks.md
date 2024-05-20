@@ -78,3 +78,35 @@ Everything not merged in:
 
 ![open_pull_reqeusts](assets/fontstash_open_pull_requests.png)
 
+
+## toyboot4e
+
+Rust related, ignoring.
+
+## relick
+
+[relick/fontstash](https://github.com/relick/fontstash)
+
+Memory leak & warning fixes.
+
+Stopped: 2021
+
+## Beyley
+
+[Beley/fontstash](https://github.com/Beyley/fontstash)
+
+Seems to be for zig, makes it a 'standalone compiled library'.
+
+Stopped: 2023
+
+## ColleagueRiley
+
+[CollegeRiley/fontstash](https://github.com/ColleagueRiley/fontstash)
+
+Got rid of VLAs, peformance fixes. Seems to have abandoned it in favor of rolling their own solution: [RFont](https://github.com/ColleagueRiley/RFont)
+
+Stopped: 2023
+
+---
+
+All other updates were not significant.

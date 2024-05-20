@@ -11,13 +11,18 @@ So, everything that was either not written in C or was not going to be an easy p
 
 There are several forks for fonstash... Going to elabroate on them in a separate [file](fontstash_forks.md)
 
+## Direct alternative to fonstash: RFont
+
+[jtsiomb/libdrawtext](https://github.com/jtsiomb/libdrawtext)  
+[ColleagueRiley/RFont](https://github.com/ColleagueRiley/RFont)  
+
+Claims to target better perforamnce than fontstash.
+Decided to directly intergrate stb_truetype.h instead of keeping it separate (There is an option to define `RFONT_EXTERNAL_STB`).
+
 ## Other partial solutions
 
 [kevinmkchin/vertext](https://github.com/kevinmkchin/vertext)  
 (looks to provide everything necessary ~1000 lines of code only)
-
-[jtsiomb/libdrawtext](https://github.com/jtsiomb/libdrawtext)  
-[ColleagueRiley/RFont](https://github.com/ColleagueRiley/RFont)
 
 [hypernewbie/VEFontCache](https://github.com/hypernewbie/VEFontCache)  
 (Also looks very good..., but it uses c++, easy to port however since its 1691 lines...)
