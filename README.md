@@ -1,25 +1,31 @@
 # Text Rendering Notes
 
+## Initial Search:
+
 The goal here was to find some solution that was small and preferrably interopped well with [odin-lang](https://odin-lang.org).
 So, everything that was either not written in C or was not going to be an easy port, was ignored.
 
-## Sokol solution (possibly, if your just after a standalone text renderer and willing to just sokol/opengl)
+## Sokol solution (possibly, if your just after a standalone text renderer and willing to just sokol/opengl)o
 
-[memononen/fontstash](https://github.com/memononen/fontstash)
-
+Its directly available in the [vendor library](https://github.com/odin-lang/Odin/blob/master/vendor/fontstash/fontstash.odin)
+and hookup impl exists alrady:
 [sokol/util/sokol_fontstash.h](https://github.com/floooh/sokol/blob/master/util/sokol_fontstash.h)
+
+Original Repo:
+[memononen/fontstash](https://github.com/memononen/fontstash)
 
 There are several forks for fonstash... Going to elabroate on them in a separate [file](fontstash_forks.md)
 
 ## Direct alternative to fonstash: RFont
 
-[jtsiomb/libdrawtext](https://github.com/jtsiomb/libdrawtext)  
 [ColleagueRiley/RFont](https://github.com/ColleagueRiley/RFont)  
 
 Claims to target better perforamnce than fontstash.
 Decided to directly intergrate stb_truetype.h instead of keeping it separate (There is an option to define `RFONT_EXTERNAL_STB`).
 
 ## Other partial solutions
+
+[jtsiomb/libdrawtext](https://github.com/jtsiomb/libdrawtext)  
 
 [kevinmkchin/vertext](https://github.com/kevinmkchin/vertext)  
 (looks to provide everything necessary ~1000 lines of code only)
