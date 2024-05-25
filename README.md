@@ -1,7 +1,5 @@
 # Text Rendering Notes
 
-## Initial Search:
-
 The goal here was to find some solution that was small and preferrably interopped well with [odin-lang](https://odin-lang.org).
 So, everything that was either not written in C or was not going to be an easy port, was ignored.
 
@@ -61,12 +59,21 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [raddebugger (non-trivial to digest solution)](https://github.com/Ed94/raddebugger)  
 [refterm](https://www.youtube.com/playlist?list=PLEMXAbCVnmY6zCgpCFlgggRkrp0tpWfrn)  
 [ocornut/imgui/imgui_draw.cpp#L4006](https://github.com/ocornut/imgui/blob/master/imgui_draw.cpp#L4006)
+[4coder-archive/4coder](https://github.com/4coder-archive/4coder.git)  
+
+## Font Parsers
+
+[freetype](https://freetype.org)
+[englerj/odin-freetype](https://github.com/englerj/odin-freetype.git)
+[stb/stb_truetype](https://github.com/nothings/stb/blob/master/stb_truetype.h)
+[odin-lang/Odin/vendor/stb/truetype/stb_truetype.odin](https://github.com/odin-lang/Odin/blob/master/vendor/stb/truetype/stb_truetype.odin)
 
 ## GPU Related
 
 [GreenLighting/gpu-font-rendering](https://github.com/GreenLightning/gpu-font-rendering)  
 [evanw/theta](https://github.com/evanw/theta)  
-[Related article for theta's implementation](https://medium.com/@evanwallace/easy-scalable-text-rendering-on-the-gpu-c3f4d782c5ac)
+[Related article for theta's implementation](https://medium.com/@evanwallace/easy-scalable-text-rendering-on-the-gpu-c3f4d782c5ac)  
+[MSDFGL - OpenGL-accelerated implementation of the multi-channel signed distance-field algorithm.](https://github.com/nyyManni/msdfgl)
 
 ## Papers
 
@@ -90,3 +97,8 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [Rendering Text Editor on GPU](https://youtu.be/srV_l795O_s)  
 
 [OpenGL Text Rendering for My Immediate UI Library - Offline Stream #02](https://youtu.be/mq3UXqPmBE8)
+
+
+### Interesting...
+
+[MacType](https://github.com/snowie2000/mactype)
