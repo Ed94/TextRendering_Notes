@@ -3,7 +3,7 @@
 The goal here was to find some solution that was small and preferrably interopped well with [odin-lang](https://odin-lang.org).
 So, everything that was either not written in C or was not going to be an easy port, was ignored.
 
-## Sokol solution (possibly, if your just after a standalone text renderer and willing to just sokol/opengl)o
+## Sokol solution (possibly, if your just after a standalone text renderer and willing to just sokol/opengl)
 
 Its directly available in the [vendor library](https://github.com/odin-lang/Odin/blob/master/vendor/fontstash/fontstash.odin)
 and hookup impl exists alrady:
@@ -30,7 +30,6 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 [hypernewbie/VEFontCache](https://github.com/hypernewbie/VEFontCache)  
 (Also looks very good..., but it uses c++, easy to port however since its 1691 lines...)
-
 
 ## Industry standard (free if you negotiate use on a free purpose, porting interface to X-Lang is problably non-trivial)
 
@@ -67,6 +66,11 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [englerj/odin-freetype](https://github.com/englerj/odin-freetype.git)
 [stb/stb_truetype](https://github.com/nothings/stb/blob/master/stb_truetype.h)
 [odin-lang/Odin/vendor/stb/truetype/stb_truetype.odin](https://github.com/odin-lang/Odin/blob/master/vendor/stb/truetype/stb_truetype.odin)
+
+## "Shaping Engine"
+
+[harfbuzz](https://github.com/harfbuzz/harfbuzz)  
+[Fribidi](https://github.com/fribidi/fribidi)
 
 ## GPU Related
 
