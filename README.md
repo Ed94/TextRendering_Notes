@@ -74,6 +74,10 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 ## GPU Related
 
+[Efficient 2D Signed Distance Field Generation on GPU](https://astiopin.github.io/2019/01/06/sdf-on-gpu.html)  
+
+* [demo of above - astiopin/sdf_atlas](https://github.com/astiopin/sdf_atlas)  
+
 [GreenLighting/gpu-font-rendering](https://github.com/GreenLightning/gpu-font-rendering)  
 [evanw/theta](https://github.com/evanw/theta)  
 [Related article for theta's implementation](https://medium.com/@evanwallace/easy-scalable-text-rendering-on-the-gpu-c3f4d782c5ac)  
