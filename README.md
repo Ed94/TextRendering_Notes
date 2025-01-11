@@ -62,9 +62,9 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 ## Font Parsers
 
-[freetype](https://freetype.org)
-[englerj/odin-freetype](https://github.com/englerj/odin-freetype.git)
-[stb/stb_truetype](https://github.com/nothings/stb/blob/master/stb_truetype.h)
+[freetype](https://freetype.org)  
+[englerj/odin-freetype](https://github.com/englerj/odin-freetype.git)  
+[stb/stb_truetype](https://github.com/nothings/stb/blob/master/stb_truetype.h)  
 [odin-lang/Odin/vendor/stb/truetype/stb_truetype.odin](https://github.com/odin-lang/Odin/blob/master/vendor/stb/truetype/stb_truetype.odin)
 
 ## "Shaping Engine"
