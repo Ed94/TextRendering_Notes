@@ -67,9 +67,10 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [stb/stb_truetype](https://github.com/nothings/stb/blob/master/stb_truetype.h)  
 [odin-lang/Odin/vendor/stb/truetype/stb_truetype.odin](https://github.com/odin-lang/Odin/blob/master/vendor/stb/truetype/stb_truetype.odin)
 
-## "Shaping Engine"
+## Text Shapers
 
 [harfbuzz](https://github.com/harfbuzz/harfbuzz)  
+[hamza](https://github.com/saidwho12/hamza)  
 [Fribidi](https://github.com/fribidi/fribidi)
 
 ## GPU Related
