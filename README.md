@@ -13,7 +13,7 @@ Original Repo:
 [memononen/fontstash](https://github.com/memononen/fontstash)
 
 There are several forks for fonstash... Going to elabroate on them in a separate [file](fontstash_forks.md)
-
+****
 ## Direct alternative to fonstash: RFont
 
 [ColleagueRiley/RFont](https://github.com/ColleagueRiley/RFont)  
@@ -89,6 +89,14 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [Resolution Independent Curve Rendering using Programmable Graphics Hardware](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/01/p1000-loop.pdf)
 
 ## Misc
+
+### Forking Paths
+
+[A Vector Graphics Renderer — part 1](https://forkingpaths.dev/posts/17-12-16/vector_graphics_p1.html)  
+[A Vector Graphics Renderer — part 2](https://forkingpaths.dev/posts/17-12-21/vector_graphics_p2.html)  
+[A Vector Graphics Renderer — part 3](https://forkingpaths.dev/posts/18-01-14/vector_graphics_p3.html)  
+[Revisiting Vector Graphics on the GPU](https://forkingpaths.dev/posts/22-11-01/vector_graphics.html)  
+[Orca Vector Graphics Backend](https://orca-app.dev/posts/240426/vector_graphics.html)
 
 ### Mr. 4th Programming
 
