@@ -1,7 +1,9 @@
 # Text Rendering Notes
 
-The goal here was to find some solution that was small and preferrably interopped well with [odin-lang](https://odin-lang.org).
+The original goal here was to find some solution that was small and preferrably interopped well with [odin-lang](https://odin-lang.org).
 So, everything that was either not written in C or was not going to be an easy port, was ignored.
+
+Now I just keep this in sync with anything I find while working on my forks of VEFontCache.
 
 ## Sokol solution (possibly, if your just after a standalone text renderer and willing to just sokol/opengl)
 
@@ -52,13 +54,17 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [Wikibooks/OpenGL_Programming/... Text Rendering 01](https://en.wikibooks.org/wiki/OpenGL_Programming/Modern_OpenGL_Tutorial_Text_Rendering_01)  
 [02 of above](https://en.wikibooks.org/wiki/OpenGL_Programming/Modern_OpenGL_Tutorial_Text_Rendering_02)
 
+[Simple good quality subpixel text rendering in OpenGL with stb_truetype and dual source blending](http://arkanis.de/weblog/2023-08-14-simple-good-quality-subpixel-text-rendering-in-opengl-with-stb-truetype-and-dual-source-blending)
+
+
 ## Examples
 
 [Immediate-Mode-UI/Nuklear/nuklear_font.c](https://github.com/Immediate-Mode-UI/Nuklear/blob/master/src/nuklear_font.c)  
 [raddebugger (non-trivial to digest solution)](https://github.com/Ed94/raddebugger)  
 [refterm](https://www.youtube.com/playlist?list=PLEMXAbCVnmY6zCgpCFlgggRkrp0tpWfrn)  
-[ocornut/imgui/imgui_draw.cpp#L4006](https://github.com/ocornut/imgui/blob/master/imgui_draw.cpp#L4006)
+[ocornut/imgui/imgui_draw.cpp#L4006](https://github.com/ocornut/imgui/blob/master/imgui_draw.cpp#L4006)  
 [4coder-archive/4coder](https://github.com/4coder-archive/4coder.git)  
+[gl-4.5-subpixel-text-rendering](https://github.com/arkanis/gl-4.5-subpixel-text-rendering/tree/17f4af4df858c52092ccad7c4292e7e4cd08091b)
 
 ## Font Parsers
 
@@ -88,6 +94,7 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 [SIGGRAPH2007: Improved Alpha-Tested Magnification for Vector Textures and Special Effects](https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf)  
 [Resolution Independent Curve Rendering using Programmable Graphics Hardware](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/01/p1000-loop.pdf)
+[Higher Quality 2D Text Rendering](https://jcgt.org/published/0002/01/04/)
 
 ## Misc
 
