@@ -90,6 +90,18 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [Related article for theta's implementation](https://medium.com/@evanwallace/easy-scalable-text-rendering-on-the-gpu-c3f4d782c5ac)  
 [MSDFGL - OpenGL-accelerated implementation of the multi-channel signed distance-field algorithm.](https://github.com/nyyManni/msdfgl)
 
+### Vector Path Accelerators
+
+[NV Path Rendering](https://developer.nvidia.com/nv-path-rendering-videos)
+[OpenVG](https://www.khronos.org/openvg/)
+
+[ajstarks/openvg](https://github.com/ajstarks/openvg)
+
+[ShivaVG: open-source ANSI C OpenVG](https://ivanleben.blogspot.com/2007/07/shivavg-open-source-ansi-c-openvg.html)  
+[ileben/ShivaVG](https://github.com/ileben/ShivaVG)
+
+[amanithvg](https://www.amanithvg.com)
+
 ## Papers
 
 [SIGGRAPH2007: Improved Alpha-Tested Magnification for Vector Textures and Special Effects](https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf)  
