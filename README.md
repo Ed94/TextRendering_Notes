@@ -93,7 +93,7 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 ## Papers
 
 [SIGGRAPH2007: Improved Alpha-Tested Magnification for Vector Textures and Special Effects](https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf)  
-[Resolution Independent Curve Rendering using Programmable Graphics Hardware](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/01/p1000-loop.pdf)
+[Resolution Independent Curve Rendering using Programmable Graphics Hardware](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/01/p1000-loop.pdf)  
 [Higher Quality 2D Text Rendering](https://jcgt.org/published/0002/01/04/)
 
 ## Misc
