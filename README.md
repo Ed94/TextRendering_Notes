@@ -56,7 +56,6 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 [Simple good quality subpixel text rendering in OpenGL with stb_truetype and dual source blending](http://arkanis.de/weblog/2023-08-14-simple-good-quality-subpixel-text-rendering-in-opengl-with-stb-truetype-and-dual-source-blending)
 
-
 ## Examples
 
 [Immediate-Mode-UI/Nuklear/nuklear_font.c](https://github.com/Immediate-Mode-UI/Nuklear/blob/master/src/nuklear_font.c)  
@@ -86,13 +85,21 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 * [demo of above - astiopin/sdf_atlas](https://github.com/astiopin/sdf_atlas)  
 
 [GreenLighting/gpu-font-rendering](https://github.com/GreenLightning/gpu-font-rendering)  
+
 [evanw/theta](https://github.com/evanw/theta)  
 [Related article for theta's implementation](https://medium.com/@evanwallace/easy-scalable-text-rendering-on-the-gpu-c3f4d782c5ac)  
-[MSDFGL - OpenGL-accelerated implementation of the multi-channel signed distance-field algorithm.](https://github.com/nyyManni/msdfgl)
+
+[MSDFGL - OpenGL-accelerated implementation of the multi-channel signed distance-field algorithm.](https://github.com/nyyManni/msdfgl)  
+
+[andrewlowndes/perfect-antialiasing: Antialiasing via conservative rasterisation and analytical area computation](https://github.com/andrewlowndes/perfect-antialiasing)  
+
+[GPU Gems 2: Chapter 42. Conservative Rasterization](https://developer.nvidia.com/gpugems/gpugems2/part-v-image-oriented-computing/chapter-42-conservative-rasterization)
+
+* [Conservative Rasterization and Raster Order Views](https://ubm-twvideo01.s3.amazonaws.com/o1/vault/gdc2017/Presentations/Sathe_Rahul_RasterOrderViews.pdf)
 
 ### Vector Path Accelerators
 
-[NV Path Rendering](https://developer.nvidia.com/nv-path-rendering-videos)
+[NV Path Rendering](https://developer.nvidia.com/nv-path-rendering-videos)  
 [OpenVG](https://www.khronos.org/openvg/)
 
 [ajstarks/openvg](https://github.com/ajstarks/openvg)
@@ -106,7 +113,8 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 [SIGGRAPH2007: Improved Alpha-Tested Magnification for Vector Textures and Special Effects](https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf)  
 [Resolution Independent Curve Rendering using Programmable Graphics Hardware](https://www.microsoft.com/en-us/research/wp-content/uploads/2005/01/p1000-loop.pdf)  
-[Higher Quality 2D Text Rendering](https://jcgt.org/published/0002/01/04/)
+[Higher Quality 2D Text Rendering](https://jcgt.org/published/0002/01/04/)  
+[Wavelet Rasterization](https://people.engr.tamu.edu/schaefer/research/wavelet_rasterization.pdf)
 
 ## Misc
 
