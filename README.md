@@ -142,6 +142,25 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 [OpenGL Text Rendering for My Immediate UI Library - Offline Stream #02](https://youtu.be/mq3UXqPmBE8)
 
+## Conceptual Overview for Typography
+
+[Google Fonts: Typeface](https://fonts.google.com/knowledge/glossary/typeface)
+
+[Wikipeida - Outline](https://en.wikipedia.org/wiki/Template:Typography)
+
+[Wikipedia - Anatomy](https://en.wikipedia.org/wiki/Typeface_anatomy)
+![Anatomy img](./assets/typeface_anatomy.png)
+
+[Sociology of Fonts - Defining the Terms Part 1: Anatomy](https://www.societyoffonts.com/2017/04/11/defining-the-termspart-1-anatomy/)  
+[Sociology of Fonts - Defining the Terms Part 2: Process](https://www.societyoffonts.com/2017/04/18/defining-the-termspart-2-process/)  
+[Sociology of Fonts - Defining the Terms Part 3: Categorization](https://www.societyoffonts.com/2017/04/25/defining-the-termspart-3-categorization/)
+
+## Original Notes Header
+
+The goal here was to find some solution that was small and preferrably interopped well with [odin-lang](https://odin-lang.org).
+So, everything that was either not written in C or was not going to be an easy port, was ignored.
+
+Now I just keep this in sync with anything I find while working on my fork of VEFontCache.
 
 ### Interesting...
 
