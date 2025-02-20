@@ -7,17 +7,17 @@ Supported by sokol: [sokol/util/sokol_fontstash.h](https://github.com/floooh/sok
 There are several forks for fonstash... Going to elabroate on them in a separate [file](fontstash_forks.md)
 
 [ColleagueRiley/RFont](https://github.com/ColleagueRiley/RFont)  
-
 Claims to target better perforamnce than fontstash.
 Decided to directly intergrate stb_truetype.h instead of keeping it separate (There is an option to define `RFONT_EXTERNAL_STB`).
 
 [jtsiomb/libdrawtext](https://github.com/jtsiomb/libdrawtext)  
 
 [kevinmkchin/vertext](https://github.com/kevinmkchin/vertext)  
-(looks to provide everything necessary ~1000 lines of code only)
 
 [hypernewbie/VEFontCache](https://github.com/hypernewbie/VEFontCache)  
 (Also looks very good..., but it uses c++, easy to port however since its 1691 lines...)
+
+* [Ed94/VEFontCache-Odin](https://github.com/Ed94/VEFontCache-Odin): Ended up porting & overhauled this to Odin-lang
 
 [fontdue](https://github.com/mooman219/fontdue)  
 (Self-proclaimed "fastest rasterizer")
