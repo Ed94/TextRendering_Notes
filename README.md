@@ -1,29 +1,15 @@
 # Text Rendering Notes
 
-The original goal here was to find some solution that was small and preferrably interopped well with [odin-lang](https://odin-lang.org).
-So, everything that was either not written in C or was not going to be an easy port, was ignored.
+## Significant Repos
 
-Now I just keep this in sync with anything I find while working on my forks of VEFontCache.
-
-## Sokol solution (possibly, if your just after a standalone text renderer and willing to just sokol/opengl)
-
-Its directly available in the [vendor library](https://github.com/odin-lang/Odin/blob/master/vendor/fontstash/fontstash.odin)
-and hookup impl exists alrady:
-[sokol/util/sokol_fontstash.h](https://github.com/floooh/sokol/blob/master/util/sokol_fontstash.h)
-
-Original Repo:
-[memononen/fontstash](https://github.com/memononen/fontstash)
-
+[fontstash](https://github.com/memononen/fontstash)  
+Supported by sokol: [sokol/util/sokol_fontstash.h](https://github.com/floooh/sokol/blob/master/util/sokol_fontstash.h)  
 There are several forks for fonstash... Going to elabroate on them in a separate [file](fontstash_forks.md)
-****
-## Direct alternative to fonstash: RFont
 
 [ColleagueRiley/RFont](https://github.com/ColleagueRiley/RFont)  
 
 Claims to target better perforamnce than fontstash.
 Decided to directly intergrate stb_truetype.h instead of keeping it separate (There is an option to define `RFONT_EXTERNAL_STB`).
-
-## Other partial solutions
 
 [jtsiomb/libdrawtext](https://github.com/jtsiomb/libdrawtext)  
 
@@ -32,6 +18,9 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 [hypernewbie/VEFontCache](https://github.com/hypernewbie/VEFontCache)  
 (Also looks very good..., but it uses c++, easy to port however since its 1691 lines...)
+
+[fontdue](https://github.com/mooman219/fontdue)  
+(Self-proclaimed "fastest rasterizer")
 
 ## Industry standard (free if you negotiate use on a free purpose, porting interface to X-Lang is problably non-trivial)
 
@@ -71,6 +60,12 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [englerj/odin-freetype](https://github.com/englerj/odin-freetype.git)  
 [stb/stb_truetype](https://github.com/nothings/stb/blob/master/stb_truetype.h)  
 [odin-lang/Odin/vendor/stb/truetype/stb_truetype.odin](https://github.com/odin-lang/Odin/blob/master/vendor/stb/truetype/stb_truetype.odin)
+[harfbuzz/ttf-parser (rust)](https://github.com/harfbuzz/ttf-parser)
+
+[MSDN - True Type](https://learn.microsoft.com/en-us/typography/truetype/)  
+[MSDN - OpenType Specification](https://learn.microsoft.com/en-us/typography/opentype/spec/)
+
+[khaledhosny/ots - OpenType Sanitizer](https://github.com/khaledhosny/ots)
 
 ## Text Shapers
 
@@ -117,6 +112,12 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [Wavelet Rasterization](https://people.engr.tamu.edu/schaefer/research/wavelet_rasterization.pdf)
 
 ## Misc
+
+### Metafont (Historical)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Metafont)  
+[metaflop/metaflop-www](https://github.com/metaflop/metaflop-www)  
+[Metapost](https://tug.org/metapost.html)
 
 ### Forking Paths
 
