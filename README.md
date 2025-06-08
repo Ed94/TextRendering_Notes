@@ -2,9 +2,16 @@
 
 ## Significant Repos
 
+[memononen/Skribidi](https://github.com/memononen/Skribidi): New; bidirectional text stack for building UIs. Seems to be a nice all-in-one solution.
+
+[fontdue](https://github.com/mooman219/fontdue)  
+(Self-proclaimed "fastest rasterizer")
+
 [fontstash](https://github.com/memononen/fontstash)  
 Supported by sokol: [sokol/util/sokol_fontstash.h](https://github.com/floooh/sokol/blob/master/util/sokol_fontstash.h)  
 There are several forks for fonstash... Going to elabroate on them in a separate [file](fontstash_forks.md)
+
+[azsn/gllabel](https://github.com/azsn/gllabel): GPU Vector Text Rendering
 
 [ColleagueRiley/RFont](https://github.com/ColleagueRiley/RFont)  
 Claims to target better perforamnce than fontstash.
@@ -12,15 +19,18 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 [jtsiomb/libdrawtext](https://github.com/jtsiomb/libdrawtext)  
 
+[tomolt/libschrift](https://github.com/tomolt/libschrift)  
+
+[bzt/scalable-font](https://gitlab.com/bztsrc/scalable-font): Scalable Screen Font renderer and file format specification  
+
+* [bzt/scalable-font2](https://gitlab.com/bztsrc/scalable-font2)
+
 [kevinmkchin/vertext](https://github.com/kevinmkchin/vertext)  
 
 [hypernewbie/VEFontCache](https://github.com/hypernewbie/VEFontCache)  
 (Also looks very good..., but it uses c++, easy to port however since its 1691 lines...)
 
 * [Ed94/VEFontCache-Odin](https://github.com/Ed94/VEFontCache-Odin): Ended up porting & overhauled this to Odin-lang
-
-[fontdue](https://github.com/mooman219/fontdue)  
-(Self-proclaimed "fastest rasterizer")
 
 ## Industry standard (free if you negotiate use on a free purpose, porting interface to X-Lang is problably non-trivial)
 
@@ -69,9 +79,14 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 ## Text Shapers
 
-[harfbuzz](https://github.com/harfbuzz/harfbuzz)  
-[hamza](https://github.com/saidwho12/hamza)  
-[Fribidi](https://github.com/fribidi/fribidi)
+[harfbuzz](https://github.com/harfbuzz/harfbuzz): Industry standard all-in-one text shaping.  
+[hamza](https://github.com/saidwho12/hamza): Alternative WIP text shaper.  
+
+[memononen/budouxc](https://github.com/memononen/budouxc): Word boundary detection for east-asian languages.  
+[adah1972/libunibreak](https://github.com/adah1972/libunibreak): Grapheme and line-break detection.  
+
+[Fribidi](https://github.com/fribidi/fribidi): GNU Bi-directional detection.  
+[Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi): Bi-directional detection.
 
 ## GPU Related
 
@@ -155,6 +170,17 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [Sociology of Fonts - Defining the Terms Part 1: Anatomy](https://www.societyoffonts.com/2017/04/11/defining-the-termspart-1-anatomy/)  
 [Sociology of Fonts - Defining the Terms Part 2: Process](https://www.societyoffonts.com/2017/04/18/defining-the-termspart-2-process/)  
 [Sociology of Fonts - Defining the Terms Part 3: Categorization](https://www.societyoffonts.com/2017/04/25/defining-the-termspart-3-categorization/)
+
+## Other repos
+
+Notable, but not a fan of.
+
+[Apple/Core Text](https://developer.apple.com/documentation/coretext/)  
+[MicrosoftDocs/DirectWrite](https://github.com/MicrosoftDocs/win32/tree/docs/desktop-src/DirectWrite)  
+[silnrsi/Graphite](https://github.com/silnrsi/graphite)  
+[GNOME/avatargtk/Pango](https://www.gtk.org/docs/architecture/pango)  
+[Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen)  
+[redox-os/rusttype](https://github.com/redox-os/rusttype)  
 
 ## Original Notes Header
 
