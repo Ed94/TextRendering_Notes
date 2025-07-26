@@ -15,8 +15,6 @@ Odin community effort towards a all-in-one solution, ttf/opentype parser, shaper
 
 * [Affine KB notes (WIP)](https://app.affine.pro/workspace/3fc9d28f-0ee6-4e4c-9675-79230706f341/k0IeZYbw3g?mode=edgeless)
 
-[memononen/Skribidi](https://github.com/memononen/Skribidi): New; bidirectional text stack for building UIs. Seems to be a nice all-in-one solution.
-
 [fontdue](https://github.com/mooman219/fontdue)  
 (Self-proclaimed "fastest rasterizer")
 
@@ -45,9 +43,43 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 * [Ed94/VEFontCache-Odin](https://github.com/Ed94/VEFontCache-Odin): Ended up porting & overhauled this to Odin-lang
 
-## Industry standard (free if you negotiate use on a free purpose, porting interface to X-Lang is problably non-trivial)
+## Industry standard
 
-[slug](https://sluglibrary.com)
+[slug](https://sluglibrary.com): Eric Lengyel's all-in-one solution. Has patented slug algorithim (free if you negotiate use on a free purpose, porting interface to X-Lang is problably non-trivial).  
+[GNOME/pango](https://gitlab.gnome.org/GNOME/pango):  High-level do-it-all library.
+
+## Font Parsers
+
+[JimmyLefevre/kb - kb_text_shape](https://github.com/JimmyLefevre/kb): Has a parser. Might be the best right now (perf wise).  
+[jon-lipstate/runic](https://github.com/jon-lipstate/runic): See ttf package (WIP).  
+[stb/stb_truetype](https://github.com/nothings/stb/blob/master/stb_truetype.h): Faster parsing and less bloated than freetype.  
+[freetype](https://freetype.org)  
+[englerj/odin-freetype](https://github.com/englerj/odin-freetype.git)  
+[odin-lang/Odin/vendor/stb/truetype/stb_truetype.odin](https://github.com/odin-lang/Odin/blob/master/vendor/stb/truetype/stb_truetype.odin)  
+[harfbuzz/ttf-parser (rust)](https://github.com/harfbuzz/ttf-parser)
+
+[MSDN - True Type](https://learn.microsoft.com/en-us/typography/truetype/)  
+[MSDN - OpenType Specification](https://learn.microsoft.com/en-us/typography/opentype/spec/)
+
+[khaledhosny/ots - OpenType Sanitizer](https://github.com/khaledhosny/ots)
+
+## Text Shapers
+
+[harfbuzz](https://github.com/harfbuzz/harfbuzz): Industry standard all-in-one text shaping.  
+[JimmyLefevre/kb - kb_text_shape](https://github.com/JimmyLefevre/kb): Has a shaper.  
+[jon-lipstate/runic](https://github.com/jon-lipstate/runic): See shaper package (WIP).  
+[hamza](https://github.com/saidwho12/hamza): Alternative WIP text shaper.  
+
+[memononen/budouxc](https://github.com/memononen/budouxc): Word boundary detection for east-asian languages.  
+[adah1972/libunibreak](https://github.com/adah1972/libunibreak): Grapheme and line-break detection.  
+
+## Segmentation
+
+[JimmyLefevre/kb - kb_text_shape](https://github.com/JimmyLefevre/kb): Has segmentation..  
+[memononen/Skribidi](https://github.com/memononen/Skribidi): Bi-directional text stack for building UIs. Seems to be a nice all-in-one solution.  
+[Fribidi](https://github.com/fribidi/fribidi): GNU Bi-directional detection.  
+[Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi): Bi-directional detection.
+[unicode-org/icu](https://github.com/unicode-org/icu): Does quite a bit but specifically also does segmenting  
 
 ## Learning Resources
 
@@ -76,30 +108,6 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [ocornut/imgui/imgui_draw.cpp#L4006](https://github.com/ocornut/imgui/blob/master/imgui_draw.cpp#L4006)  
 [4coder-archive/4coder](https://github.com/4coder-archive/4coder.git)  
 [gl-4.5-subpixel-text-rendering](https://github.com/arkanis/gl-4.5-subpixel-text-rendering/tree/17f4af4df858c52092ccad7c4292e7e4cd08091b)
-
-## Font Parsers
-
-[freetype](https://freetype.org)  
-[englerj/odin-freetype](https://github.com/englerj/odin-freetype.git)  
-[stb/stb_truetype](https://github.com/nothings/stb/blob/master/stb_truetype.h)  
-[odin-lang/Odin/vendor/stb/truetype/stb_truetype.odin](https://github.com/odin-lang/Odin/blob/master/vendor/stb/truetype/stb_truetype.odin)
-[harfbuzz/ttf-parser (rust)](https://github.com/harfbuzz/ttf-parser)
-
-[MSDN - True Type](https://learn.microsoft.com/en-us/typography/truetype/)  
-[MSDN - OpenType Specification](https://learn.microsoft.com/en-us/typography/opentype/spec/)
-
-[khaledhosny/ots - OpenType Sanitizer](https://github.com/khaledhosny/ots)
-
-## Text Shapers
-
-[harfbuzz](https://github.com/harfbuzz/harfbuzz): Industry standard all-in-one text shaping.  
-[hamza](https://github.com/saidwho12/hamza): Alternative WIP text shaper.  
-
-[memononen/budouxc](https://github.com/memononen/budouxc): Word boundary detection for east-asian languages.  
-[adah1972/libunibreak](https://github.com/adah1972/libunibreak): Grapheme and line-break detection.  
-
-[Fribidi](https://github.com/fribidi/fribidi): GNU Bi-directional detection.  
-[Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi): Bi-directional detection.
 
 ## GPU Related
 
