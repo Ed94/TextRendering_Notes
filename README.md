@@ -42,6 +42,10 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 (Also looks very good..., but it uses c++, easy to port however since its 1691 lines...)
 
 * [Ed94/VEFontCache-Odin](https://github.com/Ed94/VEFontCache-Odin): Ended up porting & overhauled this to Odin-lang
+  * Uses harfbuzz for shaping (for now)
+  * Uses stb_truetype for parsing (for now)
+  * Uses a 4-layered atlas cache texture with CPU triangulated vert draw-list for very efficient but slightly reduced text quality.
+  * Shader sample only supports greyscale anti-aliasing.
 
 ## Industry standard
 
@@ -78,7 +82,7 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [JimmyLefevre/kb - kb_text_shape](https://github.com/JimmyLefevre/kb): Has segmentation..  
 [memononen/Skribidi](https://github.com/memononen/Skribidi): Bi-directional text stack for building UIs. Seems to be a nice all-in-one solution.  
 [Fribidi](https://github.com/fribidi/fribidi): GNU Bi-directional detection.  
-[Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi): Bi-directional detection.
+[Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi): Bi-directional detection.  
 [unicode-org/icu](https://github.com/unicode-org/icu): Does quite a bit but specifically also does segmenting  
 
 ## Learning Resources
