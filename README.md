@@ -2,6 +2,19 @@
 
 ## Significant Repos
 
+[kb_text_shape](https://github.com/JimmyLefevre/kb)  
+Unicode text segmentation and OpenType shaping by Jimmy Lefevre.
+
+* [The modern text processing pipeline: Preface](https://www.newroadoldway.com/text0.html)
+* [The modern text processing pipeline: Overview](https://www.newroadoldway.com/text1.html)
+* [The modern text processing pipeline: Segmentation](https://www.newroadoldway.com/text2.html)
+* [Affine KB notes (WIP)](https://app.affine.pro/workspace/3fc9d28f-0ee6-4e4c-9675-79230706f341/K77fm8VKq0?mode=edgeless)
+
+[runic](https://github.com/jon-lipstate/runic)  
+Odin community effort towards a all-in-one solution, ttf/opentype parser, shaper, renderer, and some other goodies.
+
+* [Affine KB notes (WIP)](https://app.affine.pro/workspace/3fc9d28f-0ee6-4e4c-9675-79230706f341/k0IeZYbw3g?mode=edgeless)
+
 [memononen/Skribidi](https://github.com/memononen/Skribidi): New; bidirectional text stack for building UIs. Seems to be a nice all-in-one solution.
 
 [fontdue](https://github.com/mooman219/fontdue)  
@@ -90,6 +103,8 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 ## GPU Related
 
+[GPU text rendering with vector textures](https://wdobbie.com/post/gpu-text-rendering-with-vector-textures/)
+
 [Efficient 2D Signed Distance Field Generation on GPU](https://astiopin.github.io/2019/01/06/sdf-on-gpu.html)  
 
 * [demo of above - astiopin/sdf_atlas](https://github.com/astiopin/sdf_atlas)  
@@ -126,13 +141,22 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [Higher Quality 2D Text Rendering](https://jcgt.org/published/0002/01/04/)  
 [Wavelet Rasterization](https://people.engr.tamu.edu/schaefer/research/wavelet_rasterization.pdf)
 
-## Misc
-
 ### Metafont (Historical)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Metafont)  
 [metaflop/metaflop-www](https://github.com/metaflop/metaflop-www)  
 [Metapost](https://tug.org/metapost.html)
+
+### Unicode
+
+[Unicode Technical Reports](https://www.unicode.org/reports/)  
+[International Components for Unicode](https://github.com/unicode-org/icu/tree/main)  
+
+#### UTrie Accelerators
+
+* [Wikipeida on Tries data structures](https://en.wikipedia.org/wiki/Trie)
+* [UTrie3 experiments](https://docs.google.com/spreadsheets/d/e/2PACX-1vTgL260NFgmbiUAtptKj4fNf9wNm-OJ6Q0TbWzFWvhV7wVZk2Qe-gk2pbJh0pHY9XVsObZ3YaoOnb3I/pubhtml)
+* [ICU Codepoint Tries](https://unicode-org.github.io/icu/design/struct/utrie)
 
 ### Forking Paths
 
