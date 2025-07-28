@@ -1,6 +1,13 @@
 # Text Rendering Notes
 
-## Significant Repos
+## Industry standard
+
+[slug](https://sluglibrary.com): Eric Lengyel's all-in-one solution. Has patented slug algorithim (free if you negotiate use on a free purpose, porting interface to X-Lang is problably non-trivial).  
+[GNOME/pango](https://gitlab.gnome.org/GNOME/pango):  High-level do-it-all library.
+[Apple/Core Text](https://developer.apple.com/documentation/coretext/)  
+[MicrosoftDocs/DirectWrite](https://github.com/MicrosoftDocs/win32/tree/docs/desktop-src/DirectWrite)  
+
+## Composite Repos
 
 [kb_text_shape](https://github.com/JimmyLefevre/kb)  
 Unicode text segmentation and OpenType shaping by Jimmy Lefevre.
@@ -15,42 +22,21 @@ Odin community effort towards a all-in-one solution, ttf/opentype parser, shaper
 
 * [Affine KB notes (WIP)](https://app.affine.pro/workspace/3fc9d28f-0ee6-4e4c-9675-79230706f341/k0IeZYbw3g?mode=edgeless)
 
-[fontdue](https://github.com/mooman219/fontdue)  
-(Self-proclaimed "fastest rasterizer")
-
-[fontstash](https://github.com/memononen/fontstash)  
-Supported by sokol: [sokol/util/sokol_fontstash.h](https://github.com/floooh/sokol/blob/master/util/sokol_fontstash.h)  
-There are several forks for fonstash... Going to elabroate on them in a separate [file](fontstash_forks.md)
-
-[azsn/gllabel](https://github.com/azsn/gllabel): GPU Vector Text Rendering
-
 [ColleagueRiley/RFont](https://github.com/ColleagueRiley/RFont)  
 Claims to target better perforamnce than fontstash.
 Decided to directly intergrate stb_truetype.h instead of keeping it separate (There is an option to define `RFONT_EXTERNAL_STB`).
 
-[jtsiomb/libdrawtext](https://github.com/jtsiomb/libdrawtext)  
+[silnrsi/Graphite](https://github.com/silnrsi/graphite): "smart font" system developed specifically to handle the complexities of lesser-known languages of the world.  
 
-[tomolt/libschrift](https://github.com/tomolt/libschrift)  
+[Host-Oman/libraqm](https://github.com/HOST-Oman/libraqm): A library for complex text layout
 
-[bzt/scalable-font](https://gitlab.com/bztsrc/scalable-font): Scalable Screen Font renderer and file format specification  
-
-* [bzt/scalable-font2](https://gitlab.com/bztsrc/scalable-font2)
-
-[kevinmkchin/vertext](https://github.com/kevinmkchin/vertext)  
-
-[hypernewbie/VEFontCache](https://github.com/hypernewbie/VEFontCache)  
-(Also looks very good..., but it uses c++, easy to port however since its 1691 lines...)
+[hypernewbie/VEFontCache](https://github.com/hypernewbie/VEFontCache): VE Font Cache is a single header-only GPU font rendering library designed for game engines. (Uses harfbuzz and stb_truetype)
 
 * [Ed94/VEFontCache-Odin](https://github.com/Ed94/VEFontCache-Odin): Ended up porting & overhauled this to Odin-lang
-  * Uses harfbuzz for shaping (for now)
-  * Uses stb_truetype for parsing (for now)
   * Uses a 4-layered atlas cache texture with CPU triangulated vert draw-list for very efficient but slightly reduced text quality.
   * Shader sample only supports greyscale anti-aliasing.
-
-## Industry standard
-
-[slug](https://sluglibrary.com): Eric Lengyel's all-in-one solution. Has patented slug algorithim (free if you negotiate use on a free purpose, porting interface to X-Lang is problably non-trivial).  
-[GNOME/pango](https://gitlab.gnome.org/GNOME/pango):  High-level do-it-all library.
+  * Shaper & Parser will be overridable. (Harfbuzz & stb_truetype for now)
+  * [Affine KB docs (WIP)](https://app.affine.pro/workspace/3fc9d28f-0ee6-4e4c-9675-79230706f341/wHS6S1gUPW?mode=edgeless)
 
 ## Font Parsers
 
@@ -60,7 +46,8 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [freetype](https://freetype.org)  
 [englerj/odin-freetype](https://github.com/englerj/odin-freetype.git)  
 [odin-lang/Odin/vendor/stb/truetype/stb_truetype.odin](https://github.com/odin-lang/Odin/blob/master/vendor/stb/truetype/stb_truetype.odin)  
-[harfbuzz/ttf-parser (rust)](https://github.com/harfbuzz/ttf-parser)
+[harfbuzz/ttf-parser (rust)](https://github.com/harfbuzz/ttf-parser)  
+[redox-os/rusttype](https://github.com/redox-os/rusttype)  
 
 [MSDN - True Type](https://learn.microsoft.com/en-us/typography/truetype/)  
 [MSDN - OpenType Specification](https://learn.microsoft.com/en-us/typography/opentype/spec/)
@@ -83,7 +70,26 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [memononen/Skribidi](https://github.com/memononen/Skribidi): Bi-directional text stack for building UIs. Seems to be a nice all-in-one solution.  
 [Fribidi](https://github.com/fribidi/fribidi): GNU Bi-directional detection.  
 [Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi): Bi-directional detection.  
-[unicode-org/icu](https://github.com/unicode-org/icu): Does quite a bit but specifically also does segmenting  
+[unicode-org/icu](https://github.com/unicode-org/icu): Does quite a bit but specifically also does segmenting
+
+## Renderers
+
+[Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen)  
+[fontdue](https://github.com/mooman219/fontdue)  
+(Self-proclaimed "fastest rasterizer")
+
+[fontstash](https://github.com/memononen/fontstash)  
+Supported by sokol: [sokol/util/sokol_fontstash.h](https://github.com/floooh/sokol/blob/master/util/sokol_fontstash.h)  
+There are several forks for fonstash... Going to elabroate on them in a separate [file](fontstash_forks.md)
+
+[azsn/gllabel](https://github.com/azsn/gllabel): GPU Vector Text Rendering  
+[jtsiomb/libdrawtext](https://github.com/jtsiomb/libdrawtext)  
+[tomolt/libschrift](https://github.com/tomolt/libschrift)  
+[bzt/scalable-font](https://gitlab.com/bztsrc/scalable-font): Scalable Screen Font renderer and file format specification  
+
+* [bzt/scalable-font2](https://gitlab.com/bztsrc/scalable-font2)
+
+[kevinmkchin/vertext](https://github.com/kevinmkchin/vertext)  
 
 ## Learning Resources
 
@@ -207,23 +213,14 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 [Sociology of Fonts - Defining the Terms Part 2: Process](https://www.societyoffonts.com/2017/04/18/defining-the-termspart-2-process/)  
 [Sociology of Fonts - Defining the Terms Part 3: Categorization](https://www.societyoffonts.com/2017/04/25/defining-the-termspart-3-categorization/)
 
-## Other repos
-
-Notable, but not a fan of.
-
-[Apple/Core Text](https://developer.apple.com/documentation/coretext/)  
-[MicrosoftDocs/DirectWrite](https://github.com/MicrosoftDocs/win32/tree/docs/desktop-src/DirectWrite)  
-[silnrsi/Graphite](https://github.com/silnrsi/graphite)  
-[GNOME/avatargtk/Pango](https://www.gtk.org/docs/architecture/pango)  
-[Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen)  
-[redox-os/rusttype](https://github.com/redox-os/rusttype)  
-
 ## Original Notes Header
 
 The goal here was to find some solution that was small and preferrably interopped well with [odin-lang](https://odin-lang.org).
 So, everything that was either not written in C or was not going to be an easy port, was ignored.
 
-Now I just keep this in sync with anything I find while working on my fork of VEFontCache.
+~~Now I just keep this in sync with anything I find while working on my fork of VEFontCache.~~
+
+VEFontCache will most likely stay in a relatively "finished" state for the forseable future. Much of my interest have shifted to maybe utilizing the runic library when there is time to spruce it up.
 
 ### Interesting...
 
