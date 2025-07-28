@@ -15,6 +15,7 @@
 * [The modern text processing pipeline: Overview](https://www.newroadoldway.com/text1.html)
 * [The modern text processing pipeline: Segmentation](https://www.newroadoldway.com/text2.html)
 * [Affine KB notes (WIP)](https://app.affine.pro/workspace/3fc9d28f-0ee6-4e4c-9675-79230706f341/K77fm8VKq0?mode=edgeless)
+* [Q: performance benchmarks #21](https://github.com/JimmyLefevre/kb/issues/21)
 
 [runic](https://github.com/jon-lipstate/runic): Odin community effort towards a all-in-one solution, ttf/opentype parser, shaper, renderer, and some other goodies.
 
@@ -54,12 +55,19 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 ## Shapers
 
 [harfbuzz](https://github.com/harfbuzz/harfbuzz): Industry standard all-in-one text shaping.  
+
+* [HarfBuzz Study: Caching](https://docs.google.com/document/d/1_VgObf6Je0J8byMLsi7HCQHnKo2emGnx_ib_sHo-bt4/preview?tab=t.0#heading=h.dz2ddjpc53z2)
+* [HarfBuzz Study: Memory Consumption](https://docs.google.com/document/d/12jfNpQJzeVIAxoUSpk7KziyINAa1msbGliyXqguS86M/preview?tab=t.0#heading=h.jat5k1v2zfe)
+* [API Design](https://lists.freedesktop.org/archives/harfbuzz/2009-August/000359.html)
+
 [JimmyLefevre/kb - kb_text_shape](https://github.com/JimmyLefevre/kb): Has a shaper.  
 [jon-lipstate/runic](https://github.com/jon-lipstate/runic): See shaper package (WIP).  
 [hamza](https://github.com/saidwho12/hamza): Alternative WIP text shaper.  
 
 [memononen/budouxc](https://github.com/memononen/budouxc): Word boundary detection for east-asian languages.  
 [adah1972/libunibreak](https://github.com/adah1972/libunibreak): Grapheme and line-break detection.  
+
+[crowbar](https://github.com/simoncozens/crowbar/): An application for debugging the layout tables of an OpenType font.
 
 ## Segmentation
 
@@ -91,6 +99,11 @@ There are several forks for fonstash... Going to elabroate on them in a separate
 ## Learning Resources
 
 [State of Text Rendering 2024](https://behdad.org/text2024/#heading-h.jvmbci144jqh)  
+[Text Rendering Hates You](https://faultlore.com/blah/text-hates-you/)  
+
+[Robust Vertical Text Layout](https://unicode.org/notes/tn22/RobustVerticalLayout.pdf)  
+
+[Summer of Code 2012 - Text processing](https://web.archive.org/web/20130323070742/https://mapnik.org/news/2012/07/02/gsoc2012-status3/)  
 
 [npx-imx/gtec-demo-frameowrk/Doc/FslSimpleUI](https://github.com/nxp-imx/gtec-demo-framework/blob/master/Doc/FslSimpleUI.md)
 
