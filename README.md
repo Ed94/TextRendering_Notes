@@ -90,6 +90,8 @@ There are several forks for fonstash... Going to elabroate on them in a separate
 
 ## Learning Resources
 
+[State of Text Rendering 2024](https://behdad.org/text2024/#heading-h.jvmbci144jqh)  
+
 [npx-imx/gtec-demo-frameowrk/Doc/FslSimpleUI](https://github.com/nxp-imx/gtec-demo-framework/blob/master/Doc/FslSimpleUI.md)
 
 [Implementing a Font Reader and Rasterizer from Scratch, Part 1: TTF Font Reader](https://handmade.network/forums/articles/t/7330-implementing_a_font_reader_and_rasterizer_from_scratch%252C_part_1__ttf_font_reader)
