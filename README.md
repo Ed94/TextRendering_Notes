@@ -3,27 +3,24 @@
 ## Industry standard
 
 [slug](https://sluglibrary.com): Eric Lengyel's all-in-one solution. Has patented slug algorithim (free if you negotiate use on a free purpose, porting interface to X-Lang is problably non-trivial).  
-[GNOME/pango](https://gitlab.gnome.org/GNOME/pango):  High-level do-it-all library.
+[GNOME/pango](https://gitlab.gnome.org/GNOME/pango):  High-level do-it-all library.  
 [Apple/Core Text](https://developer.apple.com/documentation/coretext/)  
 [MicrosoftDocs/DirectWrite](https://github.com/MicrosoftDocs/win32/tree/docs/desktop-src/DirectWrite)  
 
 ## Composite Repos
 
-[kb_text_shape](https://github.com/JimmyLefevre/kb)  
-Unicode text segmentation and OpenType shaping by Jimmy Lefevre.
+[kb_text_shape](https://github.com/JimmyLefevre/kb): Unicode text segmentation and OpenType shaping by Jimmy Lefevre.
 
 * [The modern text processing pipeline: Preface](https://www.newroadoldway.com/text0.html)
 * [The modern text processing pipeline: Overview](https://www.newroadoldway.com/text1.html)
 * [The modern text processing pipeline: Segmentation](https://www.newroadoldway.com/text2.html)
 * [Affine KB notes (WIP)](https://app.affine.pro/workspace/3fc9d28f-0ee6-4e4c-9675-79230706f341/K77fm8VKq0?mode=edgeless)
 
-[runic](https://github.com/jon-lipstate/runic)  
-Odin community effort towards a all-in-one solution, ttf/opentype parser, shaper, renderer, and some other goodies.
+[runic](https://github.com/jon-lipstate/runic): Odin community effort towards a all-in-one solution, ttf/opentype parser, shaper, renderer, and some other goodies.
 
 * [Affine KB notes (WIP)](https://app.affine.pro/workspace/3fc9d28f-0ee6-4e4c-9675-79230706f341/k0IeZYbw3g?mode=edgeless)
 
-[ColleagueRiley/RFont](https://github.com/ColleagueRiley/RFont)  
-Claims to target better perforamnce than fontstash.
+[ColleagueRiley/RFont](https://github.com/ColleagueRiley/RFont): Claims to target better perforamnce than fontstash.
 Decided to directly intergrate stb_truetype.h instead of keeping it separate (There is an option to define `RFONT_EXTERNAL_STB`).
 
 [silnrsi/Graphite](https://github.com/silnrsi/graphite): "smart font" system developed specifically to handle the complexities of lesser-known languages of the world.  
@@ -54,7 +51,7 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 [khaledhosny/ots - OpenType Sanitizer](https://github.com/khaledhosny/ots)
 
-## Text Shapers
+## Shapers
 
 [harfbuzz](https://github.com/harfbuzz/harfbuzz): Industry standard all-in-one text shaping.  
 [JimmyLefevre/kb - kb_text_shape](https://github.com/JimmyLefevre/kb): Has a shaper.  
@@ -66,7 +63,7 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 ## Segmentation
 
-[JimmyLefevre/kb - kb_text_shape](https://github.com/JimmyLefevre/kb): Has segmentation..  
+[JimmyLefevre/kb - kb_text_shape](https://github.com/JimmyLefevre/kb): Has segmentation..? (Maybe not clustering)
 [memononen/Skribidi](https://github.com/memononen/Skribidi): Bi-directional text stack for building UIs. Seems to be a nice all-in-one solution.  
 [Fribidi](https://github.com/fribidi/fribidi): GNU Bi-directional detection.  
 [Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi): Bi-directional detection.  
@@ -121,8 +118,7 @@ There are several forks for fonstash... Going to elabroate on them in a separate
 
 ## GPU Related
 
-[GPU text rendering with vector textures](https://wdobbie.com/post/gpu-text-rendering-with-vector-textures/)
-
+[GPU text rendering with vector textures](https://wdobbie.com/post/gpu-text-rendering-with-vector-textures/)  
 [Efficient 2D Signed Distance Field Generation on GPU](https://astiopin.github.io/2019/01/06/sdf-on-gpu.html)  
 
 * [demo of above - astiopin/sdf_atlas](https://github.com/astiopin/sdf_atlas)  
@@ -133,7 +129,6 @@ There are several forks for fonstash... Going to elabroate on them in a separate
 [Related article for theta's implementation](https://medium.com/@evanwallace/easy-scalable-text-rendering-on-the-gpu-c3f4d782c5ac)  
 
 [MSDFGL - OpenGL-accelerated implementation of the multi-channel signed distance-field algorithm.](https://github.com/nyyManni/msdfgl)  
-
 [andrewlowndes/perfect-antialiasing: Antialiasing via conservative rasterisation and analytical area computation](https://github.com/andrewlowndes/perfect-antialiasing)  
 
 [GPU Gems 2: Chapter 42. Conservative Rasterization](https://developer.nvidia.com/gpugems/gpugems2/part-v-image-oriented-computing/chapter-42-conservative-rasterization)
@@ -143,13 +138,10 @@ There are several forks for fonstash... Going to elabroate on them in a separate
 ### Vector Path Accelerators
 
 [NV Path Rendering](https://developer.nvidia.com/nv-path-rendering-videos)  
-[OpenVG](https://www.khronos.org/openvg/)
-
-[ajstarks/openvg](https://github.com/ajstarks/openvg)
-
+[OpenVG](https://www.khronos.org/openvg/)  
+[ajstarks/openvg](https://github.com/ajstarks/openvg)  
 [ShivaVG: open-source ANSI C OpenVG](https://ivanleben.blogspot.com/2007/07/shivavg-open-source-ansi-c-openvg.html)  
-[ileben/ShivaVG](https://github.com/ileben/ShivaVG)
-
+[ileben/ShivaVG](https://github.com/ileben/ShivaVG)  
 [amanithvg](https://www.amanithvg.com)
 
 ## Papers
@@ -202,11 +194,9 @@ There are several forks for fonstash... Going to elabroate on them in a separate
 
 ## Conceptual Overview for Typography
 
-[Google Fonts: Typeface](https://fonts.google.com/knowledge/glossary/typeface)
-
-[Wikipeida - Outline](https://en.wikipedia.org/wiki/Template:Typography)
-
-[Wikipedia - Anatomy](https://en.wikipedia.org/wiki/Typeface_anatomy)
+[Google Fonts: Typeface](https://fonts.google.com/knowledge/glossary/typeface)  
+[Wikipeida - Outline](https://en.wikipedia.org/wiki/Template:Typography)  
+[Wikipedia - Anatomy](https://en.wikipedia.org/wiki/Typeface_anatomy)  
 ![Anatomy img](./assets/typeface_anatomy.png)
 
 [Sociology of Fonts - Defining the Terms Part 1: Anatomy](https://www.societyoffonts.com/2017/04/11/defining-the-termspart-1-anatomy/)  
