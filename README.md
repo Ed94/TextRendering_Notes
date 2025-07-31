@@ -71,7 +71,7 @@ Decided to directly intergrate stb_truetype.h instead of keeping it separate (Th
 
 ## Segmentation
 
-[JimmyLefevre/kb - kb_text_shape](https://github.com/JimmyLefevre/kb): Has segmentation..? (Maybe not clustering)
+[JimmyLefevre/kb - kb_text_shape](https://github.com/JimmyLefevre/kb): Has segmentation via breaks (Clustering is a [TODO](https://github.com/JimmyLefevre/kb/issues/30))  
 [memononen/Skribidi](https://github.com/memononen/Skribidi): Bi-directional text stack for building UIs. Seems to be a nice all-in-one solution.  
 [Fribidi](https://github.com/fribidi/fribidi): GNU Bi-directional detection.  
 [Tehreer/SheenBidi](https://github.com/Tehreer/SheenBidi): Bi-directional detection.  
