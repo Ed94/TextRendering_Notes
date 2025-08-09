@@ -14,7 +14,7 @@
 * [The modern text processing pipeline: Preface](https://www.newroadoldway.com/text0.html)
 * [The modern text processing pipeline: Overview](https://www.newroadoldway.com/text1.html)
 * [The modern text processing pipeline: Segmentation](https://www.newroadoldway.com/text2.html)
-* [Affine KB notes (WIP)](https://app.affine.pro/workspace/3fc9d28f-0ee6-4e4c-9675-79230706f341/K77fm8VKq0?mode=edgeless)
+* [Affine KB notes (WIP)](https://app.affine.pro/workspace/3fc9d28f-0ee6-4e4c-9675-79230706f341/RdlTL0xhh5?mode=edgeless)
 * [Q: performance benchmarks #21](https://github.com/JimmyLefevre/kb/issues/21)
 
 [runic](https://github.com/jon-lipstate/runic): Odin community effort towards a all-in-one solution, ttf/opentype parser, shaper, renderer, and some other goodies.
